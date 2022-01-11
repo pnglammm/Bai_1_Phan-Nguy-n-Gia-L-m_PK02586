@@ -1,0 +1,66 @@
+*{
+}
+body{
+    height: 100%;
+}
+/*==============LOGO FPT==============*/
+body{
+    position: relative;
+}
+
+.container .main-logo{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-top: 100px;
+    }
+
+    /*========Select=======*/
+
+.main-selec{
+    display: flex;
+    justify-content: center;
+}
+
+select{
+    background:  #f9f9f9;
+    border: none;
+}
+
+.selec-name{
+    width: 400px;
+    height: 46px;
+    border-radius: 5px;
+    padding-left: 15px;
+    
+}
+
+/*==============CAPCHA==============================*/
+.main-capcha{
+    display: block;
+    height: 70px;
+    padding-top: 20px;
+    border: 1px solid #f9f9f9;
+}
+.all-capcha{
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.main-capcha .row-capcha .capcha{
+    width: 25px;
+    height: 25px;
+    margin: 12px 12px;
+}
+
+.main-capcha .logo-main img{
+    margin-left: 10px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+
